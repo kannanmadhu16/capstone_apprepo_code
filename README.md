@@ -7,7 +7,7 @@ Things that we would need to create:
 
 It maybe useful to use Helm for Production environment workflows, so that rollback is more structured, and there is easier release management (setup two different yaml files for ease of deployement)
 this is what the current dev and prod workflows are doing 
-Dev environment
+Dev environment :
 Developer
      │
 git push develop
@@ -21,7 +21,7 @@ GitHub Actions
      ├── Update Deployment image
      └── Wait for rollout
 
-Prod environment 
+Prod environment :
 Developer
       │
 Merge into main
